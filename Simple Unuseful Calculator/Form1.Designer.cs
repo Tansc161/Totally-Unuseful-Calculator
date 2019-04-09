@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace Calculator
 {
     partial class Form1
     {
@@ -46,7 +46,6 @@
             this.plusBtn = new System.Windows.Forms.Button();
             this.clearBtn = new System.Windows.Forms.Button();
             this.num0Btn = new System.Windows.Forms.Button();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.OpacityScrollBar = new System.Windows.Forms.HScrollBar();
             this.SuspendLayout();
             // 
@@ -256,14 +255,6 @@
             this.num0Btn.UseVisualStyleBackColor = true;
             this.num0Btn.Click += new System.EventHandler(this.number_Click);
             // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 540);
-            this.splitter1.TabIndex = 18;
-            this.splitter1.TabStop = false;
-            // 
             // OpacityScrollBar
             // 
             this.OpacityScrollBar.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -281,7 +272,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 540);
             this.Controls.Add(this.OpacityScrollBar);
-            this.Controls.Add(this.splitter1);
             this.Controls.Add(this.num0Btn);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.plusBtn);
@@ -326,7 +316,6 @@
         private System.Windows.Forms.Button plusBtn;
         private System.Windows.Forms.Button clearBtn;
         private System.Windows.Forms.Button num0Btn;
-        private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.HScrollBar OpacityScrollBar;
     }
 }

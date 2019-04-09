@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace Calculator
 {
     public partial class Form1 : Form
     {
@@ -57,6 +57,7 @@ namespace WindowsFormsApplication1
             if (op == '+') result = left + right;
             else if (op == '-') result = left - right;
             else if (op == '*') result = left * right;
+            else if (op == '/' && right == 0) result = 0;
             else if (op == '/') result = left / right;
             return result;
         }

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("WindowsFormsApplication1")]
+[assembly: AssemblyTitle("Simple Unuseful Calculator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindowsFormsApplication1")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCompany("Tansc")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("Free to Use · 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
